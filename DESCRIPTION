@@ -1,0 +1,33 @@
+Package: imghelper
+Title: Image manipulation helpers
+Version: 0.0.1
+Authors@R: 
+ c( 
+    person(given = "Juan Pablo",
+           family = "Marin Diaz",
+           role = c("aut", "cre"),
+           email = "jpmarindiaz@gmail.com"),
+    person("Datasketch", role = c("cph", "fnd"))
+    )
+Description: Image manipulation helpers
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.2.3),
+    dplyr,
+    tidyr,
+    dstools,
+    vctrs,
+    terra,
+    sf
+Imports: 
+    ggimage,
+    rsvg,
+    terra
+Remotes:
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
