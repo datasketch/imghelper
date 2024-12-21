@@ -24,6 +24,7 @@ Depends:
     sf
 Imports: 
     ggimage,
+    magick,
     rsvg,
     terra
 Remotes:
