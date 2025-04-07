@@ -1,3 +1,14 @@
+
+test_that("", {
+
+  img <- img_read(sys_imghelper("sample/Tsunami_by_hokusai_19th_century.jpg"))
+
+  dist <- img_color_distribution(img, max_colors = 8)
+  dist <- img_color_distribution(img, max_colors = 8, method = "kmeans")
+
+})
+
+
 test_that("img_color_distribution returns correct data structure", {
   # Create a simple test image with 4 colors (windows pattern)
   img <- img_sample("windows")
