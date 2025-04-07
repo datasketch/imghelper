@@ -31,3 +31,21 @@ test_that("img_to_df handles invalid inputs", {
   expect_error(img_to_df("not_an_image"))
 })
 
+
+test_that("", {
+
+  img <- img_sample("windows")
+
+  img_count_colors(img)
+
+  df_original <- img_to_df(img)
+  original_colors <- df_original |>
+    dplyr::select(R, G, B) |>
+    dplyr::distinct()
+  nrow(original_colors)
+
+
+
+})
+
+
