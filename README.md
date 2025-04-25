@@ -1,5 +1,6 @@
 # imghelper
 
+
 An R package for advanced image manipulation, based on the `magick` package.
 
 ## Installation
